@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# Hardhat Simple Storage Tutorial
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+A working version of Lesson 6 of the Full Stack Web3 Development with JavaScript course from FreeCodeCamp: https://www.youtube.com/watch?v=gyMwXuJrbJQ
 
-Try running some of the following tasks:
+Try run use the following code:
 
 ```shell
-npx hardhat accounts
+npm install
+npx hardhat
 npx hardhat compile
-npx hardhat clean
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npx hardhat run scripts/deploy.js
 ```
